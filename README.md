@@ -7,3 +7,5 @@ papers on embodied intelligence
 ## 3.useniexsecurity25-yeke.pdf(Automated Discovery of Semantic Attacks in Multi-Robot Navigation Systems)
 提出了名为Raven的自动化语义攻击发现工具，针对多机器人导航避碰算法（ORCA、GLAS） 展开虚假数据注入攻击（FDIA） 挖掘，定义了围捕（Herding）、死锁（Deadlock）、导航延迟、机器人碰撞、机器人 - 障碍物碰撞五类攻击目标，通过信号时序逻辑（STL） 与随机优化实现有效且隐蔽的攻击生成，在数值仿真、高保真 PX4/Gazebo 仿真、Crazyflie 无人机真机三大平台验证，发现两类算法共5 项设计缺陷，单次虚假数据注入即可引发故障，攻击成功率达90%–100%，并给出针对性防御方案。
 ·因为实现了真实攻击验证，我们可以参考它的环境、攻击方式来提出防御
+## 4.VLSA: Vision-Language-Action Models with Plug-and-Play Safety Constraint Layer
+本文提出VLSA（Vision-Language-Safe Action）架构并实现AEGIS模型，通过即插即用的控制障碍函数（CBF）安全约束层，为现有视觉 - 语言 - 动作（VLA）模型提供理论可证的安全保障，无需重新训练即可动态修正不安全动作；同时构建SafeLIBERO 安全基准，实验证明 AEGIS 使避障率提升59.16%、任务成功率提升17.25%，计算开销仅占总延迟1.86%，兼顾安全、任务性能与实时性。
