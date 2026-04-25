@@ -41,3 +41,14 @@ papers on embodied intelligence
 开源代码：https://github.com/iSEE-Laboratory/AMNAR
 
 [点击查看论文](./Huang%20等%20-%20Modeling%20Multiple%20Normal%20Action%20Representations%20for%20Error%20Detection%20in%20Procedural%20Tasks.pdf)
+
+## 7.ET-BERT: A Contextualized Datagram Representation with Pre-training Transformers for Encrypted Traffic Classification
+[摘要] 加密流量分类需要从内容不可见和不均衡的流量数据中获取 判别性和鲁棒性的流量表示来进行准确分类，这是实现网络 安全和网络管理的一项挑战，但也是必不可少的。现有解决 方案的主要局限在于高度依赖深度特征，而深度特征过于依 赖数据大小，难以在不可见数据上泛化。如何利用开放域未 标记的交通数据来学习具有较强泛化能力的表示，仍然是一 个关键的挑战。在本文中，我们提出了一种新的流量表示模 型，称为来自变压器的加密流量双向编码器表示(ET-BERT)， 该模型从大规模未标记数据中预训练深度上下文化数据报级 表示。预训练的模型可以在少量特定于任务的标记数据上进 行微调，并在五个加密流量分类任务中实现最先进的性能， 显著地将ISCX-VPN-Service的F1提高到98.9%(5.2%↑)，跨 平台(Android)提高到92.5%(5.4%↑)，CSTNET-TLS的F1提 高到1.3到97.4%(10.0%↑)。值得注意的是，我们通过分析密 码的随机性提供了对经验上强大的预训练模型的解释。它为 我们理解加密流量上的分类能力边界提供了见解。
+
+论文链接：https://arxiv.org/abs/2202.06335
+代码链接：https://github.com/linwhitehat/ET-BERT
+
+
+
+
+
